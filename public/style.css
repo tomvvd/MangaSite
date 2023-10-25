@@ -1,0 +1,48 @@
+header {
+    background-color: #29558c;
+    display : flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+#manga-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: grey;
+    display : flex;
+}
+
+#central {
+    display : flex;
+}
+
+.manga {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin : 10px;
+    width: 25%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
